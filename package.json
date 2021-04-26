@@ -1,49 +1,52 @@
 {
-  "name": "kulinatest",
-  "version": "0.1.0",
-  "private": true,
-  "dependencies": {
-    "@material-ui/icons": "^4.11.2",
-    "@testing-library/jest-dom": "^5.12.0",
-    "@testing-library/react": "^11.2.6",
-    "@testing-library/user-event": "^12.8.3",
-    "material-design-icons": "^3.0.1",
-    "material-ui-bottom-sheet": "^0.5.1",
-    "react": "^17.0.2",
-    "react-custom-scrollbars": "^4.2.1",
-    "react-dom": "^17.0.2",
-    "react-icon": "^1.0.0",
-    "react-icons": "^4.2.0",
-    "react-scripts": "4.0.3",
-    "react-spring-bottom-sheet": "^3.2.1",
-    "react-swipeable": "^6.1.0",
-    "reactstrap": "^8.9.0",
-    "redux": "^4.0.5",
-    "styled-components": "^5.2.3",
-    "web-vitals": "^1.1.1"
-  },
-  "scripts": {
-    "start": "react-scripts start",
-    "build": "react-scripts build",
-    "test": "react-scripts test",
-    "eject": "react-scripts eject"
-  },
-  "eslintConfig": {
-    "extends": [
-      "react-app",
-      "react-app/jest"
-    ]
-  },
-  "browserslist": {
-    "production": [
-      ">0.2%",
-      "not dead",
-      "not op_mini all"
-    ],
-    "development": [
-      "last 1 chrome version",
-      "last 1 firefox version",
-      "last 1 safari version"
-    ]
-  }
+    "name": "kulinatest",
+    "version": "0.1.0",
+    "private": false,
+    "homepage": "https://fullstuckdeveloper.github.io/64085f9c93b22912b59021d4735ebb59618e7d4d/",
+    "dependencies": {
+        "@material-ui/icons": "^4.11.2",
+        "@testing-library/jest-dom": "^5.12.0",
+        "@testing-library/react": "^11.2.6",
+        "@testing-library/user-event": "^12.8.3",
+        "material-design-icons": "^3.0.1",
+        "material-ui-bottom-sheet": "^0.5.1",
+        "react": "^17.0.2",
+        "react-custom-scrollbars": "^4.2.1",
+        "react-dom": "^17.0.2",
+        "react-icon": "^1.0.0",
+        "react-icons": "^4.2.0",
+        "react-scripts": "4.0.3",
+        "react-spring-bottom-sheet": "^3.2.1",
+        "react-swipeable": "^6.1.0",
+        "reactstrap": "^8.9.0",
+        "redux": "^4.0.5",
+        "styled-components": "^5.2.3",
+        "web-vitals": "^1.1.1"
+    },
+    "scripts": {
+        "start": "react-scripts start",
+        "build": "react-scripts build",
+        "test": "react-scripts test",
+        "eject": "react-scripts eject",
+        "predeploy": "run npm build",
+        "deploy": "gh-pages -d build"
+    },
+    "eslintConfig": {
+        "extends": [
+            "react-app",
+            "react-app/jest"
+        ]
+    },
+    "browserslist": {
+        "production": [
+            ">0.2%",
+            "not dead",
+            "not op_mini all"
+        ],
+        "development": [
+            "last 1 chrome version",
+            "last 1 firefox version",
+            "last 1 safari version"
+        ]
+    }
 }
